@@ -58,8 +58,8 @@ export default function About() {
 
                 rounded-2xl
 
-                bg-sky-500
-                hover:bg-sky-600
+                bg-purple-500
+                hover:bg-purple-600
 
                 transition"
             >
@@ -84,8 +84,8 @@ export default function About() {
 
                 rounded-2xl
 
-                bg-sky-500
-                hover:bg-sky-600
+                bg-purple-500
+                hover:bg-purple-600
 
                 transition"
             >
@@ -115,9 +115,6 @@ export default function About() {
 
                 transition"
             >
-                <div className="text-2xl text-green-400">
-                W
-                </div>
 
                 <span className="text-green-400 font-semibold text-xl">
                 WhatsApp
@@ -140,9 +137,6 @@ export default function About() {
 
                 transition"
             >
-                <div className="text-2xl text-red-400">
-                CV
-                </div>
 
                 <span className="text-red-400 font-semibold text-xl">
                 Currículo

@@ -3,67 +3,122 @@ export default function Hero() {
         <section
         className="
             min-h-screen
-            flex items-center justify-center
+            flex items-center
             px-6
             relative
-            overflow-hidden
-        "
+            overflow-hidden"
         >
+        {/* glow */}
         <div
             className="
-            absolute top-[-200px]
+            absolute top-[-200px] left-1/2
+            -translate-x-1/2
             w-[500px] h-[500px]
-            bg-purple-500/30
+            bg-purple-500/20
             blur-3xl
-            rounded-full
-            "
+            rounded-full"
         />
 
-        <div className="relative z-10 max-w-5xl text-center">
+        <div
+            className="
+            relative z-10
+            max-w-6xl mx-auto
+            w-full
+
+            grid md:grid-cols-2
+            gap-16
+            items-center"
+        >
+            {/* texto */}
+            <div>
             <p className="text-purple-400 text-sm mb-4">
-            frontend developer
+                Full Stack Developer
             </p>
 
             <h1
-            className="
+                className="
                 text-5xl md:text-7xl
                 font-bold
-                leading-tight
-            "
+                leading-tight"
             >
-            creating modern
-            <span className="text-purple-400">
-                {" "}web experiences
-            </span>
+                Bianca
+                <span className="text-purple-400">
+                {" "}Oliveira
+                </span>
             </h1>
 
-            <p
-            className="
-                text-zinc-400
+            <h2
+                className="
+                text-xl md:text-2xl
+                text-zinc-300
                 mt-6
-                max-w-2xl
-                mx-auto
-                text-lg
-            "
+                leading-relaxed"
             >
-            React, Next.js and TypeScript projects
-            focused on modern UI, animations
-            and performance.
+                Full Stack Developer |
+                Javascript | Typescript | React
+            </h2>
+
+            <p
+                className="
+                text-zinc-400
+                mt-8
+                text-lg
+                leading-8
+                max-w-xl"
+            >
+                Desenvolvendo aplicações web modernas, responsivas
+                e escaláveis, unindo performance, experiência
+                do usuário e código limpo.
             </p>
 
             <div className="mt-10">
-            <button
+                <button
                 className="
-                px-8 py-4
-                rounded-full
-                bg-purple-500
-                hover:bg-purple-600
-                transition
-                font-medium
-                "
-            >
+                    px-8 py-4
+                    rounded-full
+                    bg-purple-500
+                    hover:bg-purple-600
+                    transition
+                    font-medium"
+                >
                 view projects
-            </button>
+                </button>
+            </div>
+            </div>
+
+            {/* foto */}
+            <div
+            className="
+                flex justify-center"
+            >
+            <div
+                className="
+                relative
+
+                w-[320px]
+                h-[320px]
+
+                rounded-[40px]
+                border border-white/10
+                bg-zinc-900
+                overflow-hidden"
+            >
+                {/* glow */}
+                <div
+                className="
+                    absolute inset-0
+                    bg-purple-500/10"
+                />
+
+                {/* imagem */}
+                <img
+                src="/foto3.png"
+                alt="profile"
+                className="
+                    w-full h-full
+                    object-cover"
+                />
+            </div>
             </div>
         </div>
         </section>

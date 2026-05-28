@@ -58,8 +58,8 @@ export default function About() {
 
                 rounded-2xl
 
-                bg-purple-500
-                hover:bg-purple-600
+                bg-purple-600
+                hover:bg-purple-500
 
                 transition"
             >
@@ -81,11 +81,10 @@ export default function About() {
                 flex items-center gap-4
 
                 px-8 py-5
-
                 rounded-2xl
 
-                bg-purple-500
-                hover:bg-purple-600
+                bg-purple-600
+                hover:bg-purple-500
 
                 transition"
             >
@@ -107,7 +106,6 @@ export default function About() {
                 flex items-center gap-4
 
                 px-8 py-5
-
                 rounded-2xl
 
                 border border-green-500
@@ -129,7 +127,6 @@ export default function About() {
                 flex items-center gap-4
 
                 px-8 py-5
-
                 rounded-2xl
 
                 border border-red-500

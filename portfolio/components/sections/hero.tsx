@@ -1,3 +1,4 @@
+import Button from "@/components/ui/button";
 export default function Hero() {
     return (
         <section
@@ -6,7 +7,8 @@ export default function Hero() {
             flex items-center
             px-6
             relative
-            overflow-hidden"
+            overflow-hidden
+        "
         >
         {/* glow */}
         <div
@@ -16,7 +18,8 @@ export default function Hero() {
             w-[500px] h-[500px]
             bg-purple-500/20
             blur-3xl
-            rounded-full"
+            rounded-full
+            "
         />
 
         <div
@@ -24,10 +27,10 @@ export default function Hero() {
             relative z-10
             max-w-6xl mx-auto
             w-full
-
             grid md:grid-cols-2
             gap-16
-            items-center"
+            items-center
+            "
         >
             {/* texto */}
             <div>
@@ -35,88 +38,48 @@ export default function Hero() {
                 Full Stack Developer
             </p>
 
-            <h1
-                className="
-                text-5xl md:text-7xl
-                font-bold
-                leading-tight"
-            >
-                Bianca
-                <span className="text-purple-400">
-                {" "}Oliveira
-                </span>
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+                Bianca{" "}
+                <span className="text-purple-400">Oliveira</span>
             </h1>
 
-            <h2
-                className="
-                text-xl md:text-2xl
-                text-zinc-300
-                mt-6
-                leading-relaxed"
-            >
-                Full Stack Developer |
-                Javascript | Typescript | React
+            <h2 className="text-xl md:text-2xl text-zinc-300 mt-6 leading-relaxed">
+                Full Stack Developer | Javascript | Typescript | React
             </h2>
 
-            <p
-                className="
-                text-zinc-400
-                mt-8
-                text-lg
-                leading-8
-                max-w-xl"
-            >
-                Desenvolvendo aplicações web modernas, responsivas
-                e escaláveis, unindo performance, experiência
-                do usuário e código limpo.
+            <p className="text-zinc-400 mt-8 text-lg leading-8 max-w-xl">
+                Desenvolvendo aplicações web modernas, responsivas e escaláveis,
+                unindo performance, experiência do usuário e código limpo.
             </p>
 
             <div className="mt-10">
-                <button
-                className="
-                    px-8 py-4
-                    rounded-full
-                    bg-purple-500
-                    hover:bg-purple-600
-                    transition
-                    font-medium"
-                >
-                view projects
-                </button>
+                <Button variant="primary">
+                View projects
+                </Button>
             </div>
             </div>
 
             {/* foto */}
-            <div
-            className="
-                flex justify-center"
-            >
+            <div className="flex justify-center">
             <div
                 className="
                 relative
-
                 w-[320px]
                 h-[320px]
-
                 rounded-[40px]
                 border border-white/10
                 bg-zinc-900
-                overflow-hidden"
+                overflow-hidden
+                "
             >
                 {/* glow */}
-                <div
-                className="
-                    absolute inset-0
-                    bg-purple-500/10"
-                />
+                <div className="absolute inset-0 bg-purple-500/10" />
 
                 {/* imagem */}
                 <img
                 src="/foto3.png"
                 alt="profile"
-                className="
-                    w-full h-full
-                    object-cover"
+                className="w-full h-full object-cover"
                 />
             </div>
             </div>

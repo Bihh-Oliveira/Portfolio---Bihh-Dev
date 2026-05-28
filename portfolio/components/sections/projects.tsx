@@ -9,7 +9,10 @@ export default function Projects() {
             <p className="text-purple-400 mb-4">projects</p>
 
             <h2 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl">
-                alguns projetos que desenvolvi.
+                alguns projetos que {""}
+                <span className="text-purple-400">
+                desenvolvi.
+                </span>
             </h2>
 
             <p className="text-zinc-400 text-lg leading-8 mt-10 max-w-3xl">

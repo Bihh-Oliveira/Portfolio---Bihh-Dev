@@ -26,10 +26,12 @@ import {
                 text-4xl md:text-6xl
                 font-bold
                 leading-tight
-                max-w-4xl"
-            >
-                aplicações web modernas
-                e interativas.
+                max-w-4xl">
+
+                aplicações web {" "}
+                <span className="text-purple-400">
+                modernas e interativas.
+                </span>
             </h2>
 
             <p
@@ -67,10 +69,13 @@ import {
                 rounded-2xl
 
                 bg-purple-600
-                hover:bg-purple-500
+                border border-purple-500
+                shadow-[0_0_15px_rgba(168,85,247,0.15)]
 
-                transition
-                "
+                hover:border-purple-400
+                hover:shadow-[0_0_25px_rgba(168,85,247,0.45)]
+
+                transition-all duration-300"
             >
                 <FaGithub
                 size={22}
@@ -94,10 +99,13 @@ import {
                 rounded-2xl
 
                 bg-purple-700
-                hover:bg-purple-500
+                border-purple-500
+                shadow-[0_0_15px_rgba(168,85,247,0.15)]
 
-                transition-all duration-300
-                "
+                hover:border-purple-400
+                hover:shadow-[0_0_25px_rgba(168,85,247,0.45)]
+
+                transition-all duration-300"
             >
                 <FaLinkedin
                 size={22}

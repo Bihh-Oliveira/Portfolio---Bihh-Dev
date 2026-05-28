@@ -77,7 +77,7 @@ export default function Hero() {
 
                 {/* imagem */}
                 <img
-                src="/foto3.png"
+                src="/hero.png"
                 alt="profile"
                 className="w-full h-full object-cover"
                 />

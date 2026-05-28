@@ -45,7 +45,7 @@ export default function Contact() {
             >
             {/* github */}
             <a
-                href="https://github.com"
+                href="https://github.com/Bihh-Oliveira"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -83,7 +83,7 @@ export default function Contact() {
 
             {/* linkedin */}
             <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/bianca-oliveira-73b433333/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -157,7 +157,7 @@ export default function Contact() {
 
             {/* whatsapp */}
             <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5511930183069"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="

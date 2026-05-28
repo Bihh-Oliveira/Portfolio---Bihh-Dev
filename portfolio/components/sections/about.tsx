@@ -48,7 +48,7 @@ export default function About() {
             >
             {/* github */}
             <a
-                href="https://github.com"
+                href="https://github.com/Bihh-Oliveira"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -74,7 +74,7 @@ export default function About() {
 
             {/* linkedin */}
             <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/bianca-oliveira-73b433333/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -99,7 +99,7 @@ export default function About() {
 
             {/* whatsapp */}
             <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5511930183069"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -118,27 +118,26 @@ export default function About() {
                 WhatsApp
                 </span>
             </a>
-
+            
             {/* currículo */}
             <a
-                href="/cv.pdf"
-                target="_blank"
-                className="
-                flex items-center gap-4
+            href="/cv.pdf"
+            download
+            className="
+              flex items-center gap-4
 
-                px-8 py-5
-                rounded-2xl
+              px-8 py-5
+              rounded-2xl
 
-                border border-red-500
-                hover:bg-red-500/10
+              border border-red-500
+              text-red-400 font-semibold text-xl
 
-                transition"
-            >
-
-                <span className="text-red-400 font-semibold text-xl">
-                Currículo
-                </span>
-            </a>
+              hover:bg-red-500/10
+              transition
+            "
+          >
+            Currículo
+          </a>
             </div>
         </div>
         </section>

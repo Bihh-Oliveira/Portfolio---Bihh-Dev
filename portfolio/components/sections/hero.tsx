@@ -13,9 +13,9 @@ export default function Hero() {
         {/* glow */}
         <div
             className="
-            absolute top-[-200px] left-1/2
+            absolute top-50 left-1/2
             -translate-x-1/2
-            w-[500px] h-[500px]
+            w-125 h-125
             bg-purple-500/20
             blur-3xl
             rounded-full
@@ -64,8 +64,8 @@ export default function Hero() {
             <div
                 className="
                 relative
-                w-[320px]
-                h-[320px]
+                w-80
+                h-80
                 rounded-[40px]
                 border border-white/10
                 bg-zinc-900

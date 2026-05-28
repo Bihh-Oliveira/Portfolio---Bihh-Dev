@@ -1,4 +1,11 @@
-export default function About() {
+import {
+    FaGithub,
+    FaLinkedin,
+    FaWhatsapp,
+    FaFilePdf,
+    } from "react-icons/fa";
+
+    export default function About() {
     return (
         <section
         id="about"
@@ -7,6 +14,7 @@ export default function About() {
             px-6"
         >
         <div className="max-w-6xl mx-auto">
+            
             {/* texto */}
             <div>
             <p className="text-purple-400 mb-4">
@@ -43,8 +51,8 @@ export default function About() {
             <div
             className="
                 flex flex-wrap
-                gap-6
-                mt-16"
+                gap-5
+                mt-10"
             >
             {/* github */}
             <a
@@ -54,18 +62,20 @@ export default function About() {
                 className="
                 flex items-center gap-4
 
-                px-8 py-5
+                px-5 py-5
 
                 rounded-2xl
 
                 bg-purple-600
                 hover:bg-purple-500
 
-                transition"
+                transition
+                "
             >
-                <div className="text-2xl text-white">
-                G
-                </div>
+                <FaGithub
+                size={22}
+                className="text-white"
+                />
 
                 <span className="text-white font-semibold text-xl">
                 GitHub
@@ -80,17 +90,19 @@ export default function About() {
                 className="
                 flex items-center gap-4
 
-                px-8 py-5
+                px-5 py-5
                 rounded-2xl
 
                 bg-purple-600
                 hover:bg-purple-500
 
-                transition"
+                transition
+                "
             >
-                <div className="text-2xl text-white">
-                in
-                </div>
+                <FaLinkedin
+                size={22}
+                className="text-white"
+                />
 
                 <span className="text-white font-semibold text-xl">
                 LinkedIn
@@ -105,39 +117,50 @@ export default function About() {
                 className="
                 flex items-center gap-4
 
-                px-8 py-5
+                px-5 py-5
                 rounded-2xl
 
                 border border-green-500
                 hover:bg-green-500/10
 
-                transition"
+                transition
+                "
             >
+                <FaWhatsapp
+                size={22}
+                className="text-green-400"
+                />
 
                 <span className="text-green-400 font-semibold text-xl">
                 WhatsApp
                 </span>
             </a>
-            
+
             {/* currículo */}
             <a
-            href="/cv.pdf"
-            download
-            className="
-              flex items-center gap-4
+                href="/cv.pdf"
+                download
+                className="
+                flex items-center gap-4
 
-              px-8 py-5
-              rounded-2xl
+                px-5 py-5
+                rounded-2xl
 
-              border border-red-500
-              text-red-400 font-semibold text-xl
+                border border-red-500
 
-              hover:bg-red-500/10
-              transition
-            "
-          >
-            Currículo
-          </a>
+                text-red-400
+                font-semibold
+                text-xl
+
+                hover:bg-red-500/10
+
+                transition
+                "
+            >
+                <FaFilePdf size={22} />
+
+                Currículo
+            </a>
             </div>
         </div>
         </section>

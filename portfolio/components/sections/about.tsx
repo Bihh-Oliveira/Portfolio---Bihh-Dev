@@ -93,10 +93,10 @@ import {
                 px-5 py-5
                 rounded-2xl
 
-                bg-purple-600
+                bg-purple-700
                 hover:bg-purple-500
 
-                transition
+                transition-all duration-300
                 "
             >
                 <FaLinkedin
@@ -107,6 +107,33 @@ import {
                 <span className="text-white font-semibold text-xl">
                 LinkedIn
                 </span>
+            </a>
+
+            {/* currículo */}
+            <a
+                href="/cv.pdf"
+                download
+                className="
+                flex items-center gap-4
+
+                px-5 py-5
+                rounded-2xl
+
+                text-purple-400
+                font-semibold
+                text-xl
+
+                border border-purple-500
+                shadow-[0_0_15px_rgba(168,85,247,0.15)]
+
+                hover:border-purple-400
+                hover:shadow-[0_0_25px_rgba(168,85,247,0.45)]
+
+                transition-all duration-300"
+            >
+                <FaFilePdf size={22} />
+
+                Currículo
             </a>
 
             {/* whatsapp */}
@@ -121,10 +148,12 @@ import {
                 rounded-2xl
 
                 border border-green-500
-                hover:bg-green-500/10
+                shadow-[0_0_15px_rgba(34,197,94,0.15)]
 
-                transition
-                "
+                hover:border-green-400
+                hover:shadow-[0_0_25px_rgba(34,197,94,0.45)]
+
+                transition-all duration-300"
             >
                 <FaWhatsapp
                 size={22}
@@ -134,32 +163,6 @@ import {
                 <span className="text-green-400 font-semibold text-xl">
                 WhatsApp
                 </span>
-            </a>
-
-            {/* currículo */}
-            <a
-                href="/cv.pdf"
-                download
-                className="
-                flex items-center gap-4
-
-                px-5 py-5
-                rounded-2xl
-
-                border border-red-500
-
-                text-red-400
-                font-semibold
-                text-xl
-
-                hover:bg-red-500/10
-
-                transition
-                "
-            >
-                <FaFilePdf size={22} />
-
-                Currículo
             </a>
             </div>
         </div>

@@ -68,8 +68,8 @@ import {
 
                 rounded-2xl
 
-                bg-purple-600
-                border border-purple-500
+                bg-purple-700
+                border-purple-500
                 shadow-[0_0_15px_rgba(168,85,247,0.15)]
 
                 hover:border-purple-400

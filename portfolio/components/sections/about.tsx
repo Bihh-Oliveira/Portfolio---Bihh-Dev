@@ -1,7 +1,7 @@
 import {
     FaGithub,
     FaLinkedin,
-    FaWhatsapp,
+    FaInstagram,
     FaFilePdf,
     } from "react-icons/fa";
 
@@ -70,40 +70,9 @@ import {
             <div
             className="
                 flex flex-wrap
-                justify-center
                 gap-5
                 mt-16"
             >
-            {/* github */}
-            <a
-                href="https://github.com/Bihh-Oliveira"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="
-                flex items-center gap-4
-
-                px-5 py-5
-
-                rounded-2xl
-
-                bg-purple-700
-                border-purple-500
-                shadow-[0_0_15px_rgba(168,85,247,0.15)]
-
-                hover:border-purple-400
-                hover:shadow-[0_0_25px_rgba(168,85,247,0.45)]
-
-                transition-all duration-300"
-            >
-                <FaGithub
-                size={22}
-                className="text-white"
-                />
-
-                <span className="text-white font-semibold text-xl">
-                GitHub
-                </span>
-            </a>
 
             {/* linkedin */}
             <a
@@ -122,7 +91,6 @@ import {
 
                 hover:border-purple-400
                 hover:shadow-[0_0_25px_rgba(168,85,247,0.45)]
-
                 transition-all duration-300"
             >
                 <FaLinkedin
@@ -162,34 +130,6 @@ import {
                 Currículo
             </a>
 
-            {/* whatsapp */}
-            <a
-                href="https://wa.me/5511930183069"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="
-                flex items-center gap-4
-
-                px-5 py-5
-                rounded-2xl
-
-                border border-green-500
-                shadow-[0_0_15px_rgba(34,197,94,0.15)]
-
-                hover:border-green-400
-                hover:shadow-[0_0_25px_rgba(34,197,94,0.45)]
-
-                transition-all duration-300"
-            >
-                <FaWhatsapp
-                size={22}
-                className="text-green-400"
-                />
-
-                <span className="text-green-400 font-semibold text-xl">
-                WhatsApp
-                </span>
-            </a>
             </div>
         </div>
         </section>

@@ -1,7 +1,7 @@
 import {
     FaGithub,
     FaLinkedin,
-    FaWhatsapp,
+    FaInstagram,
     } from "react-icons/fa";
 
     import { MdEmail } from "react-icons/md";
@@ -12,7 +12,7 @@ import {
     const contacts = [
         {
         title: "GitHub",
-        description: "github.com/Bihh-Oliveira",
+        description: "Bihh-Oliveira",
         href: "https://github.com/Bihh-Oliveira",
         icon: FaGithub,
         },
@@ -29,10 +29,10 @@ import {
         icon: MdEmail,
         },
         {
-        title: "WhatsApp",
-        description: "+55 11 93018-3069",
-        href: "https://wa.me/5511930183069",
-        icon: FaWhatsapp,
+        title: "Instagram",
+        description: "bihh_olliveira_",
+        href: "https://www.instagram.com/bihh_olliveira_/",
+        icon: FaInstagram,
         },
     ];
 
@@ -140,15 +140,11 @@ import {
                         backdrop-blur-xl
 
                         rounded-3xl
-
                         px-8 py-7
 
                         flex items-center justify-between
-
                         border border-white/5
-
                         group-hover:border-purple-400/30
-
                         transition-all duration-300"
                     >
                     {/* esquerda */}

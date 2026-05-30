@@ -47,7 +47,7 @@ export default function Hero() {
                 sistemas eficientes, organizados e preparados para evolução contínua.
             </p>
 
-            <p className="text-zinc-200 font-bold mt-4 text-lg leading-8 max-w-xl">
+            <p className="text-purple-400 font-bold mt-4 text-lg leading-8 max-w-xl">
                 Construindo um futuro, uma linha de código por vez.
             </p>
 

@@ -12,7 +12,7 @@ export default function Footer() {
             className="
             absolute bottom-[-120px] left-1/2
             -translate-x-1/2
-            w-[400px] h-[400px]
+            w-100 h-100
             bg-purple-500/20
             blur-3xl
             rounded-full"
@@ -38,55 +38,25 @@ export default function Footer() {
                     font-bold
                     text-white"
                 >
-                bih.dev
+                Bih.Dev
                 </h2>
 
-                <p
-                className="
-                    text-zinc-400
-                    mt-3
-                    max-w-sm
-                    leading-7"
-                >
-                Creating modern interfaces
-                with React, Next.js and
-                TypeScript.
-                </p>
+            <div className="mt-3">
+            <p className="text-zinc-500 text-sm">
+                Full Stack Developer • São Paulo, Brasil
+            </p>
             </div>
 
-            {/* links */}
-            <div
-                className="
-                flex items-center gap-8
-                text-sm text-zinc-400"
-            >
-                <a
-                href="#about"
-                className="
-                    hover:text-purple-400
-                    transition"
-                >
-                about
-                </a>
 
-                <a
-                href="#projects"
-                className="
-                    hover:text-purple-400
-                    transition"
-                >
-                projects
-                </a>
-
-                <a
-                href="#contact"
-                className="
-                    hover:text-purple-400
-                    transition"
-                >
-                contact
-                </a>
             </div>
+
+            <div className="text-right max-w-xs">
+            <p className="text-zinc-400">
+                Transformando ideias em experiências digitais 
+                através de código e criatividade.
+            </p>
+            </div>
+
             </div>
 
             {/* bottom */}
@@ -100,12 +70,9 @@ export default function Footer() {
                 text-sm text-zinc-500"
             >
             <p>
-                © 2026 bih.dev. all rights reserved.
+                © 2026 Bih.Dev. all rights reserved.
             </p>
 
-            <p>
-                built with next.js & tailwind
-            </p>
             </div>
         </div>
         </footer>

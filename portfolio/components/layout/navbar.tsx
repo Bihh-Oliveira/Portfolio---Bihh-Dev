@@ -52,7 +52,7 @@ export default function Navbar() {
             after:left-0
             after:-bottom-2
 
-            after:h-[2px]
+            after:h-0.5
             after:bg-purple-500
 
             after:transition-all
@@ -83,7 +83,7 @@ export default function Navbar() {
             "
         >
             <h1 className="text-2xl font-bold text-white">
-            bih.dev
+            Bih.Dev
             </h1>
 
             <nav className="flex items-center gap-8 text-sm">

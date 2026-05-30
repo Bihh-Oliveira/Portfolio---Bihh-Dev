@@ -69,11 +69,10 @@ import {
                 className="
                 text-purple-400
                 text-sm
-                uppercase
                 tracking-[0.2em]
                 mb-4"
             >
-                contact
+                CONTACT
             </p>
 
             <h2

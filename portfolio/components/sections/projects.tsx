@@ -4,9 +4,18 @@ export default function Projects() {
     return (
         <section id="projects" className="py-40 px-6">
         <div className="max-w-6xl mx-auto">
+            
             {/* header */}
-            <div>
-            <p className="text-purple-400 mb-4">Meus Projetos</p>
+            <div className="">
+            <p
+                className="
+                text-purple-400
+                text-sm
+                tracking-[0.2em]
+                mb-4"
+            >
+                PROJETOS
+            </p>
 
             <h2 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl">
                 Cada linha de código é uma oportunidade de {""}
@@ -15,7 +24,7 @@ export default function Projects() {
                 </span>
             </h2>
 
-            <p className="text-zinc-400 text-lg leading-8 mt-10 max-w-3xl">
+            <p className="text-zinc-400 text-lg leading-8 mt-8 max-w-3xl">
                 Esses são alguns dos projetos que tive o prazer de desenvolver, cada um representando uma jornada única de aprendizado e inovação.
             </p>
             </div>

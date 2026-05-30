@@ -13,12 +13,18 @@ import {
             py-40
             px-6"
         >
-        <div className="max-w-6xl mx-auto">
+            <div className="max-w-6xl mx-auto">
             
             {/* texto */}
-            <div>
-            <p className="text-purple-400 mb-4">
-                about me
+            <div className="">
+            <p
+                className="
+                text-purple-400
+                text-sm
+                tracking-[0.2em]
+                mb-4"
+            >
+                SOBRE MIM
             </p>
 
             <h2
@@ -28,9 +34,9 @@ import {
                 leading-tight
                 max-w-4xl">
 
-                aplicações web {" "}
+                Do conceito ao {" "}
                 <span className="text-purple-400">
-                modernas e interativas.
+                propósito digital.
                 </span>
             </h2>
 
@@ -39,22 +45,34 @@ import {
                 text-zinc-400
                 text-lg
                 leading-8
-                mt-10
+                mt-8
                 max-w-3xl"
             >
-                Eu desenvolvo interfaces responsivas e modernas
-                usando React, Next.js e TypeScript,
-                com foco em desempenho, animações
-                e experiência do usuário.
+                Minha trajetória é guiada pelo aprendizado contínuo e pela busca por novos desafios. Atualmente desenvolvo aplicações web modernas, unindo performance, usabilidade e boas práticas de desenvolvimento para transformar ideias em soluções digitais eficientes e bem estruturadas.
             </p>
+
+            <p
+                className="
+                text-zinc-400
+                text-lg
+                leading-8
+                mt-5
+                max-w-3xl"
+            >
+                Acredito que bons produtos surgem da combinação entre
+                aprendizado contínuo, atenção aos detalhes e foco nas
+                necessidades de quem utiliza a solução.
+            </p>
+
             </div>
 
             {/* cards */}
             <div
             className="
                 flex flex-wrap
+                justify-center
                 gap-5
-                mt-10"
+                mt-16"
             >
             {/* github */}
             <a

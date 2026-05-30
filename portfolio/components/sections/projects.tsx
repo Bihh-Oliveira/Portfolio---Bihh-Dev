@@ -6,17 +6,17 @@ export default function Projects() {
         <div className="max-w-6xl mx-auto">
             {/* header */}
             <div>
-            <p className="text-purple-400 mb-4">projects</p>
+            <p className="text-purple-400 mb-4">Meus Projetos</p>
 
             <h2 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl">
-                alguns projetos que {""}
+                Cada linha de código é uma oportunidade de {""}
                 <span className="text-purple-400">
-                desenvolvi.
+                criar algo extraordinário.
                 </span>
             </h2>
 
             <p className="text-zinc-400 text-lg leading-8 mt-10 max-w-3xl">
-                teste teste teste teste teste teste teste teste teste
+                Esses são alguns dos projetos que tive o prazer de desenvolver, cada um representando uma jornada única de aprendizado e inovação.
             </p>
             </div>
 

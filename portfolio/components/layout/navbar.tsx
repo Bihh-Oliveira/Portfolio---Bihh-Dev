@@ -90,6 +90,7 @@ export default function Navbar() {
             {navLink("hero", "Home")}
             {navLink("about", "Sobre mim")}
             {navLink("projects", "Projetos")}
+            {navLink("technologies", "Tecnologias")}
             {navLink("contact", "Contato")}
             </nav>
         </div>

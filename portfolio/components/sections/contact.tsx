@@ -30,8 +30,8 @@ import {
         },
         {
         title: "Instagram",
-        description: "bihh_olliveira_",
-        href: "https://www.instagram.com/bihh_olliveira_/",
+        description: "dev.biahh__",
+        href: "https://www.instagram.com/dev.biahh__/",
         icon: FaInstagram,
         },
     ];
@@ -72,7 +72,7 @@ import {
                 tracking-[0.2em]
                 mb-4"
             >
-                CONTACT
+                CONTATO
             </p>
 
             <h2

@@ -38,7 +38,7 @@ export default function Footer() {
                     font-bold
                     text-white"
                 >
-                Bih.Dev
+                dev.biahh__
                 </h2>
 
             <div className="mt-3">
@@ -70,7 +70,7 @@ export default function Footer() {
                 text-sm text-zinc-500"
             >
             <p>
-                © 2026 Bih.Dev. all rights reserved.
+                © 2026 dev.biahh__. all rights reserved.
             </p>
 
             </div>

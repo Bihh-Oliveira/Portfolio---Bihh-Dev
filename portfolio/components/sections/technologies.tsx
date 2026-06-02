@@ -77,9 +77,14 @@ import {
         />
 
         <div className="relative z-10 max-w-6xl mx-auto">
-
-            <p className="text-purple-400 mb-4">
-            Tecnologias
+            <p
+                className="
+                text-purple-400
+                text-sm
+                tracking-[0.2em]
+                mb-4"
+            >
+                TECNOLOGIAS
             </p>
 
             <h2

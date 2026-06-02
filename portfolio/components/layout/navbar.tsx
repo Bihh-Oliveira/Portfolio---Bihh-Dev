@@ -83,7 +83,7 @@ export default function Navbar() {
             "
         >
             <h1 className="text-2xl font-bold text-white">
-            Bih.Dev
+            dev.biahh__
             </h1>
 
             <nav className="flex items-center gap-8 text-sm">

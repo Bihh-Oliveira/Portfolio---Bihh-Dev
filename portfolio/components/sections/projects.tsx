@@ -33,31 +33,31 @@ export default function Projects() {
             <div className="grid md:grid-cols-2 gap-8 mt-16">
 
             <Card
-                title="teste projeto 1"
-                description="teste teste teste teste teste"
+                title="Next-Acess"
+                description="Sistema inteligente de controle de acesso corporativo com painel web, aplicativo mobile e integração IoT, utilizando QR Code dinâmico para gerenciamento seguro de funcionários, visitantes e acessos em prédios empresariais."
                 image="/project1.png"
-                github="https://github.com"
+                github="https://github.com/Bihh-Oliveira/Next-Acess"
             />
 
             <Card
-                title="teste projeto 2"
-                description="teste teste teste teste teste"
+                title="NEXUS FITNESS - Admin"
+                description="Plataforma completa de gestão para academias composto por painel administrativo web, focado no gerenciamento de alunos, professores, planos e pagamentos, tendo uma visão geral da academia em tempo real."
                 image="/project2.png"
-                github="https://github.com"
+                github="https://github.com/Bihh-Oliveira/Admin---Academia"
             />
 
             <Card
-                title="teste projeto 3"
-                description="teste teste teste teste teste"
+                title="NexiumCode - Landing Page"
+                description="Landing page institucional desenvolvida para fortalecer a presença digital da empresa e apresentar seus serviços de forma clara, moderna e estratégica."
                 image="/project3.png"
-                github="https://github.com"
+                github="https://github.com/Bihh-Oliveira/NexiumCode---Landing_Page"
             />
 
             <Card
-                title="teste projeto 4"
-                description="teste teste teste teste teste"
+                title="App - Money Control"
+                description="App de controle de gastos pessoais que permite aos usuários registrar e categorizar suas despesas, oferecendo uma visão clara de seus hábitos financeiros e auxiliando no planejamento orçamentário. Criado utilizando React Native com Expo."
                 image="/project4.png"
-                github="https://github.com"
+                github="https://github.com/Bihh-Oliveira/Mobile-Development"
             />
 
             </div>

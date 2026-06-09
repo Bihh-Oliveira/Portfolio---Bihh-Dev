@@ -15,7 +15,7 @@ type CardProps = {
     }: CardProps) {
     return (
         <div
-        className="
+            className="
             group
             relative
 
@@ -28,8 +28,11 @@ type CardProps = {
             hover:border-purple-500
             hover:shadow-[0_0_25px_rgba(168,85,247,0.15)]
 
+            hover:scale-[1.02]
+            hover:-translate-y-2
+
             transition-all duration-300
-        "
+            "
         >
         {/* imagem */}
         <div
@@ -51,10 +54,6 @@ type CardProps = {
                 w-full
                 h-full
                 object-cover
-
-                group-hover:scale-105
-
-                transition duration-500
                 "
             />
             ) : (

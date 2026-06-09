@@ -132,7 +132,8 @@ import {
                     via-transparent
                     to-white/5
 
-                    overflow-hidden"
+                    overflow-hidden
+                    "
                 >
                     <div
                     className="

@@ -5,32 +5,35 @@ import {
     } from "react-icons/fa";
 
     import { MdEmail } from "react-icons/md";
-
     import { HiArrowUpRight } from "react-icons/hi2";
 
     export default function Contact() {
     const contacts = [
         {
         title: "GitHub",
-        description: "Bihh-Oliveira",
+        description:
+            "Explore meus projetos, estudos e experiências de desenvolvimento.",
         href: "https://github.com/Bihh-Oliveira",
         icon: FaGithub,
         },
         {
         title: "LinkedIn",
-        description: "Bianca Oliveira",
+        description:
+            "Acompanhe minha trajetória profissional e conexões na área.",
         href: "https://www.linkedin.com/in/bianca-oliveira-73b433333/",
         icon: FaLinkedin,
         },
         {
         title: "Email",
-        description: "bibiolly2006@gmail.com",
+        description:
+            "Entre em contato para oportunidades, propostas e parcerias.",
         href: "mailto:bibiolly2006@gmail.com",
         icon: MdEmail,
         },
         {
         title: "Instagram",
-        description: "dev.biahh__",
+        description:
+            "Conteúdo, bastidores e projetos relacionados à tecnologia.",
         href: "https://www.instagram.com/dev.biahh__/",
         icon: FaInstagram,
         },
@@ -43,7 +46,8 @@ import {
             relative
             py-40
             px-6
-            overflow-hidden"
+            overflow-hidden
+        "
         >
         {/* glow */}
         <div
@@ -52,14 +56,14 @@ import {
             top-1/2 left-1/2
             -translate-x-1/2 -translate-y-1/2
 
-            w-125
-            h-125
+            w-125 h-125
 
             bg-purple-500/10
             blur-3xl
             rounded-full
 
-            pointer-events-none"
+            pointer-events-none
+            "
         />
 
         <div className="max-w-6xl mx-auto relative z-10">
@@ -70,7 +74,8 @@ import {
                 text-purple-400
                 text-sm
                 tracking-[0.2em]
-                mb-4"
+                mb-4
+                "
             >
                 CONTATO
             </p>
@@ -79,11 +84,12 @@ import {
                 className="
                 text-5xl md:text-7xl
                 font-bold
-                leading-tight"
+                leading-tight
+                "
             >
-                Vamos criar algo
+                Vamos construir algo
                 <span className="text-purple-400">
-                {" "}incrível.
+                {" "}juntos.
                 </span>
             </h2>
 
@@ -92,17 +98,22 @@ import {
                 text-zinc-400
                 text-lg
                 leading-8
-                max-w-2xl
+                max-w-3xl
                 mx-auto
-                mt-8"
+                mt-8
+                "
             >
-                Entre em contato através das minhas redes
-                ou me envie uma mensagem diretamente.
+                Estou sempre aberta a novas oportunidades, colaborações e
+                projetos que desafiem minha criatividade e ampliem meu
+                conhecimento. Se você tem uma ideia ou procura alguém para
+                transformá-la em uma solução digital moderna, será um prazer
+                conversar.
             </p>
             </div>
 
             {/* cards */}
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="flex flex-wrap justify-center gap-5 mt-16">
+
             {contacts.map((contact) => {
                 const Icon = contact.icon;
 
@@ -110,104 +121,47 @@ import {
                 <a
                     key={contact.title}
                     href={contact.href}
-                    target={
-                    contact.href.startsWith("http")
-                        ? "_blank"
-                        : undefined
-                    }
-                    rel={
-                    contact.href.startsWith("http")
-                        ? "noopener noreferrer"
-                        : undefined
-                    }
+                    target={contact.href.startsWith("http") ? "_blank" : undefined}
+                    rel={contact.href.startsWith("http") ? "noopener noreferrer" : undefined}
                     className="
                     group
-                    relative
 
-                    p-px
-                    rounded-3xl
+                    flex items-center gap-4
+                    px-6 py-5
+                    rounded-2xl
 
-                    bg-linear-to-br
-                    from-purple-500/30
-                    via-transparent
-                    to-white/5
+                    border border-purple-500
+                    shadow-[0_0_15px_rgba(168,85,247,0.15)]
 
-                    overflow-hidden
+                    hover:border-purple-400
+                    hover:shadow-[0_0_30px_rgba(168,85,247,0.35)]
+                    hover:-translate-y-2
+                    hover:scale-105
+
+                    transition-all duration-300
                     "
                 >
-                    <div
+                    <Icon
                     className="
-                        bg-zinc-950/95
-                        backdrop-blur-xl
+                        text-purple-400
+                        text-2xl
 
-                        rounded-3xl
-                        px-8 py-7
+                        group-hover:-rotate-12
+                        group-hover:scale-110
 
-                        flex items-center justify-between
-                        border border-white/5
-                        group-hover:border-purple-400/30
-                        transition-all duration-300"
+                        transition-all duration-300
+                    "
+                    />
+
+                    <span
+                    className="
+                        text-white
+                        font-semibold
+                        text-lg
+                    "
                     >
-                    {/* esquerda */}
-                    <div className="flex items-center gap-5">
-                        {/* ícone */}
-                        <div
-                        className="
-                            w-16 h-16
-                            rounded-2xl
-
-                            bg-purple-500/10
-                            border border-purple-400/20
-
-                            flex items-center justify-center
-
-                            text-purple-400
-                            text-3xl
-
-                            group-hover:scale-110
-                            group-hover:shadow-[0_0_25px_rgba(168,85,247,0.35)]
-
-                            transition-all duration-300"
-                        >
-                        <Icon />
-                        </div>
-
-                        {/* texto */}
-                        <div>
-                        <h3
-                            className="
-                            text-2xl
-                            font-semibold
-                            text-white"
-                        >
-                            {contact.title}
-                        </h3>
-
-                        <p
-                            className="
-                            text-zinc-400
-                            mt-1
-                            text-sm"
-                        >
-                            {contact.description}
-                        </p>
-                        </div>
-                    </div>
-
-                    {/* seta */}
-                    <div
-                        className="
-                        text-zinc-600
-
-                        group-hover:text-purple-400
-                        group-hover:translate-x-1
-                        group-hover:-translate-y-1
-
-                        transition-all duration-300"
-                    >
-                        <HiArrowUpRight size={24} />
-                    </div>
-                    </div>
+                    {contact.title}
+                    </span>
                 </a>
                 );
             })}

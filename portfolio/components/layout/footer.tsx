@@ -36,7 +36,7 @@ export default function Footer() {
                 className="
                     text-2xl
                     font-bold
-                    text-white"
+                    text-purple-300"
                 >
                 dev.biahh__
                 </h2>
@@ -46,7 +46,6 @@ export default function Footer() {
                 Full Stack Developer • São Paulo, Brasil
             </p>
             </div>
-
 
             </div>
 

@@ -19,6 +19,114 @@
   }
 }
 
+@keyframes border-travel {
+  to {
+    offset-distance: 100%;
+  }
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes border-spin {
+  to {
+    --border-angle: 360deg;
+  }
+}
+
+.beam-card {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.beam-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+
+  background: conic-gradient(
+    from var(--border-angle),
+
+    transparent 0deg,
+    transparent 250deg,
+
+    rgba(168,85,247,.03) 260deg,
+    rgba(168,85,247,.08) 275deg,
+    rgba(168,85,247,.15) 290deg,
+    rgba(168,85,247,.30) 305deg,
+
+    #a855f7 320deg,
+    #c084fc 335deg,
+    #e4c8ff 348deg,
+    #c084fc 355deg,
+    #a855f7 360deg
+);
+
+  animation: border-spin 3.5s linear infinite;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+
+  -webkit-mask-composite: xor;
+
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+
+  mask-composite: exclude;
+
+  pointer-events: none;
+}
+
+.beam-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 18px rgba(168,85,247,.18);
+  pointer-events: none;
+}
+
+.border-runner {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.border-runner::before {
+  content: "";
+
+  position: absolute;
+
+  width: 80px;
+  height: 3px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #a855f7,
+    #60a5fa,
+    transparent
+  );
+
+  border-radius: 999px;
+
+  filter: blur(.5px);
+
+  offset-path: inset(1.5px round 18px);
+  offset-distance: 0%;
+
+  animation: border-travel 4s linear infinite;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

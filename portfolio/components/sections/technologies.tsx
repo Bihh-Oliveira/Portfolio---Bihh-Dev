@@ -123,23 +123,24 @@ import {
                 <div
                 key={tech.name}
                 className="
-                    group
+                beam-card
+                group
 
-                    flex items-center
-                    gap-4
+                flex items-center
+                gap-4
 
-                    px-6 py-4
-                    rounded-2xl
+                px-6 py-4
+                rounded-2xl
 
-                    bg-zinc-900
-                    border border-white/10
+                bg-zinc-900
+                border border-white/10
 
-                    hover:border-purple-500
-                    hover:bg-purple-500/10
+                hover:bg-purple-500/10
+                hover:-translate-y-1
+                hover:shadow-[0_0_30px_rgba(168,85,247,0.30)]
 
-                    hover:-translate-y-1
-                    hover:shadow-[0_0_25px_rgba(168,85,247,0.25)]
-                    transition-all duration-300"
+                transition-all duration-300
+                "
                 >
                 <div
                     className="
